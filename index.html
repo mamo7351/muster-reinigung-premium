@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Muster Reinigung – professionelle Reinigung für Büros, Häuser und Gewerbe in Deutschland.">
+<title>Muster Reinigung | Sauberkeit mit Qualität</title>
+<style>
+:root{--navy:#10243d;--blue:#1769aa;--gold:#d9ad55;--light:#f3f7fb;--text:#26364a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);line-height:1.7}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 15px #10243d12}
+.nav{display:flex;justify-content:space-between;align-items:center;min-height:78px;gap:20px}
+.logo{font-size:23px;font-weight:800;color:var(--navy)}
+.logo span{color:var(--blue)}
+nav{display:flex;gap:25px;align-items:center}
+nav a:hover{color:var(--blue)}
+.btn{display:inline-block;background:var(--blue);color:#fff;padding:12px 22px;border-radius:6px;font-weight:700;border:0;cursor:pointer}
+.btn:hover{background:#10558c}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.hero{background:linear-gradient(90deg,#0b2038ed,#0b2038a0),url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff;padding:110px 0 120px}
+.eyebrow{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+.hero h1{font-size:clamp(38px,6vw,64px);line-height:1.12;max-width:720px;margin:18px 0}
+.hero p{font-size:18px;max-width:600px;color:#e2eaf4;margin-bottom:28px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn.outline{border:1px solid #ffffff9c;background:transparent;color:#fff}
+section{padding:78px 0}
+.section-head{text-align:center;max-width:680px;margin:0 auto 40px}
+.section-head h2{font-size:clamp(28px,4vw,40px);color:var(--navy);line-height:1.2;margin:10px 0}
+.section-head p{color:#68788a}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid #e6edf4;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px #10243d08}
+.card img{width:100%;height:205px;object-fit:cover;display:block}
+.card-body{padding:23px}
+.card h3{color:var(--navy);font-size:21px;margin-bottom:8px}
+.card p{color:#647386}
+.icon{width:44px;height:44px;border-radius:10px;background:#eaf4fc;color:var(--blue);display:grid;place-items:center;font-size:22px;margin-bottom:15px}
+.soft{background:var(--light)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about img{width:100%;height:420px;object-fit:cover;border-radius:14px}
+.about h2{font-size:clamp(28px,4vw,40px);line-height:1.2;color:var(--navy);margin:12px 0 18px}
+.about p{margin-bottom:16px;color:#5e6f81}
+.checks{list-style:none;margin:20px 0}
+.checks li{margin:10px 0}
+.checks li:before{content:"✓";color:var(--blue);font-weight:bold;margin-right:10px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.stat{padding:28px 12px;background:#fff;border-radius:10px}
+.stat strong{font-size:34px;color:var(--blue);display:block}
+.stat span{color:#627287}
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px}
+.contact-info{background:var(--navy);color:#fff;padding:32px;border-radius:12px}
+.contact-info h3{font-size:25px;margin-bottom:15px}
+.contact-info p{color:#d5dfeb;margin:12px 0}
+form{background:#fff;padding:30px;border:1px solid #e5ebf2;border-radius:12px}
+label{display:block;font-weight:700;margin:12px 0 5px}
+input,textarea,select{width:100%;padding:12px;border:1px solid #d7e0e9;border-radius:6px;font:inherit}
+textarea{min-height:120px;resize:vertical}
+form .btn{margin-top:18px;width:100%}
+.notice{font-size:13px;color:#68788a;margin-top:12px}
+footer{background:#0b192b;color:#d3dce7;padding:35px 0}
+.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer strong{color:#fff}
+footer a{color:#fff}
+@media(max-width:800px){
+.nav{padding:15px 0;align-items:flex-start;flex-direction:column}
+nav{flex-wrap:wrap;gap:14px;font-size:14px}
+nav .btn{padding:8px 12px}
+.hero{padding:75px 0}
+.grid{grid-template-columns:1fr 1fr}
+.about,.contact-grid{grid-template-columns:1fr}
+.about img{height:300px}
+}
+@media(max-width:520px){
+.grid{grid-template-columns:1fr}
+.stats{grid-template-columns:1fr}
+section{padding:55px 0}
+.hero h1{font-size:39px}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#home">MUSTER <span>REINIGUNG</span></a>
+<nav>
+<a href="#home">Startseite</a>
+<a href="#leistungen">Leistungen</a>
+<a href="#ueber-uns">Über uns</a>
+<a href="#kontakt" class="btn">Kontakt</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container">
+<div class="eyebrow">Sauberkeit. Qualität. Vertrauen.</div>
+<h1>Saubere Räume.<br>Ein gutes Gefühl.</h1>
+<p>Professionelle Reinigung für Büros, Wohnungen und Gewerbe. Wir sorgen für Sauberkeit, auf die Sie sich verlassen können.</p>
+<div class="hero-actions">
+<a class="btn gold" href="#kontakt">Kostenloses Angebot anfragen</a>
+<a class="btn outline" href="#leistungen">Unsere Leistungen</a>
+</div>
+</div>
+</section>
+
+<section id="leistungen">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Was wir anbieten</div>
+<h2>Unsere Reinigungsleistungen</h2>
+<p>Individuelle Reinigungslösungen für Ihre Räume – zuverlässig und sorgfältig.</p>
+</div>
+<div class="grid">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80" alt="Sauberes modernes Büro">
+<div class="card-body"><div class="icon">✦</div><h3>Büroreinigung</h3><p>Saubere Arbeitsplätze, Besprechungsräume und Gemeinschaftsbereiche für einen angenehmen Arbeitsalltag.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" alt="Professionelle Reinigung">
+<div class="card-body"><div class="icon">⌂</div><h3>Gebäudereinigung</h3><p>Gründliche Pflege von Innenbereichen und gemeinschaftlich genutzten Flächen.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Heller sauberer Wohnraum">
+<div class="card-body"><div class="icon">◇</div><h3>Wohnungsreinigung</h3><p>Mehr Zeit für Sie – wir kümmern uns um die regelmäßige Reinigung Ihrer Wohnräume.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80" alt="Reinigungsutensilien">
+<div class="card-body"><div class="icon">✧</div><h3>Grundreinigung</h3><p>Intensive Reinigung für Bereiche, die besondere Aufmerksamkeit benötigen.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80" alt="Saubere Fenster">
+<div class="card-body"><div class="icon">☼</div><h3>Glasreinigung</h3><p>Klare Sicht und gepflegte Glasflächen für einen freundlichen ersten Eindruck.</p></div>
+</article>
+<article class="card">
+<img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" alt="Reinigung und Pflege">
+<div class="card-body"><div class="icon">✓</div><h3>Individuelle Reinigung</h3><p>Sie haben besondere Wünsche? Wir finden gemeinsam eine passende Lösung.</p></div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="soft" id="ueber-uns">
+<div class="container about">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=85" alt="Reinigung mit professioneller Ausstattung">
+<div>
+<div class="eyebrow">Über uns</div>
+<h2>Qualität, die man sehen kann.</h2>
+<p>Bei Muster Reinigung steht sorgfältige Arbeit im Mittelpunkt. Wir möchten Ihnen saubere Räume und einen zuverlässigen Service bieten.</p>
+<p>Ob regelmäßige Reinigung oder einmaliger Einsatz – gemeinsam besprechen wir Ihren Bedarf und erstellen ein passendes Angebot.</p>
+<ul class="checks">
+<li>Sorgfältige und strukturierte Arbeitsweise</li>
+<li>Individuell abgestimmte Leistungen</li>
+<li>Klare Kommunikation und Planung</li>
+<li>Angebot passend zu Ihrem Bedarf</li>
+</ul>
+<a class="btn" href="#kontakt">Jetzt Kontakt aufnehmen</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Unser Anspruch</div>
+<h2>Ihr Vertrauen ist unser Ziel</h2>
+<p>Wir möchten durch gute Arbeit überzeugen – bei jedem Auftrag.</p>
+</div>
+<div class="stats">
+<div class="stat"><strong>100%</strong><span>Fokus auf Qualität</span></div>
+<div class="stat"><strong>Flexibel</strong><span>Nach Ihrem Bedarf</span></div>
+<div class="stat"><strong>Direkt</strong><span>Persönliche Abstimmung</span></div>
+</div>
+</div>
+</section>
+
+<section class="soft" id="kontakt">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Kontakt</div>
+<h2>Lassen Sie uns sprechen</h2>
+<p>Beschreiben Sie kurz, welche Reinigung Sie benötigen.</p>
+</div>
+<div class="contact-grid">
+<div class="contact-info">
+<h3>Wir freuen uns auf Ihre Anfrage.</h3>
+<p>Sie benötigen eine Reinigung für Ihre Wohnung, Ihr Büro oder Ihre Gewerberäume? Kontaktieren Sie uns für eine individuelle Anfrage.</p>
+<p><strong>Standort:</strong><br>Deutschland</p>
+<p><strong>E-Mail:</strong><br>Bitte hier Ihre echte E-Mail-Adresse eintragen</p>
+<p><strong>Telefon:</strong><br>Bitte hier Ihre echte Telefonnummer eintragen</p>
+</div>
+<form onsubmit="event.preventDefault();alert('Dies ist eine Demo. Das Formular versendet noch keine Nachricht. Bitte kontaktieren Sie den Betreiber direkt.');">
+<label for="name">Ihr Name</label>
+<input id="name" name="name" placeholder="Vor- und Nachname" required>
+<label for="email">Ihre E-Mail-Adresse</label>
+<input id="email" name="email" type="email" placeholder="name@beispiel.de" required>
+<label for="service">Gewünschte Leistung</label>
+<select id="service" name="service">
+<option>Büroreinigung</option>
+<option>Gebäudereinigung</option>
+<option>Wohnungsreinigung</option>
+<option>Grundreinigung</option>
+<option>Glasreinigung</option>
+<option>Andere Anfrage</option>
+</select>
+<label for="message">Ihre Nachricht</label>
+<textarea id="message" name="message" placeholder="Wie können wir Ihnen helfen?" required></textarea>
+<button class="btn" type="submit">Anfrage vorbereiten</button>
+<p class="notice">Demo-Formular: Es werden keine Daten versendet. Vor dem echten Einsatz muss ein Versanddienst eingerichtet werden.</p>
+</form>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container footer-row">
+<div><strong>MUSTER REINIGUNG</strong><br>Sauberkeit mit Qualität.</div>
+<div>© <span id="year"></span> Muster Reinigung. Alle Rechte vorbehalten.</div>
+<div><a href="#kontakt">Kontakt</a> · <a href="#home">Nach oben ↑</a></div>
+</div>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
